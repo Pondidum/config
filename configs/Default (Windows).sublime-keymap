@@ -1,0 +1,6 @@
+[
+	{ "keys": ["ctrl+0"], "command": "reset_font_size" },
+	{ "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+	{ "keys": ["ctrl+shift+s"], "command": "save_all" },
+	{ "keys": ["ctrl+shift+w"], "command": "close_all" },
+]

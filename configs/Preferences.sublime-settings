@@ -1,6 +1,7 @@
 {
 	"detect_indentation": true,
 	"font_size": 12,
+	"trim_trailing_white_space_on_save": true,
 	"ignored_packages":
 	[
 		"Vintage"

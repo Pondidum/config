@@ -23,3 +23,7 @@
 	undo = reset HEAD~1 --mixed
 [credential]
 	helper = !'C:\\Users\\Andy\\AppData\\Roaming\\GitCredStore\\git-credential-winstore.exe'
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false

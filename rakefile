@@ -1,15 +1,14 @@
 
 directories = {
-  "a" => "b"
-  "configs/.gitconfig" => "~",
-  "configs/Default (Windows).sublime-keymap" => "~/AppData/Roaming/Sublime Text 3/Packages/User/",
-  "configs/Preferences.sublime-settings" => "~/AppData/Roaming/Sublime Text 3/Packages/User/"
+  "configs/.gitconfig" => "~/.gitconfig",
+  "configs/Default (Windows).sublime-keymap" => "~/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+  "configs/Preferences.sublime-settings" => "~/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 }
 
 task :push do
 
   directories.each do | source, dest |
-    FileUtils.cp source, dest
+    FileUtils.cp File.expand_path(source), File.expand_path(dest)
   end
 
 end
@@ -17,7 +16,7 @@ end
 task :pull do
 
   directories.each do | source, dest |
-    FileUtils.cp dest, source
+    FileUtils.cp File.expand_path(dest), File.expand_path(source)
   end
 
 end

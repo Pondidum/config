@@ -2,7 +2,8 @@
 directories = {
   "configs/.gitconfig" => "~/.gitconfig",
   "configs/Default (Windows).sublime-keymap" => "~/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-  "configs/Preferences.sublime-settings" => "~/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+  "configs/Preferences.sublime-settings" => "~/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+  "configs/Distraction Free.sublime-settings" => "~/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
 }
 
 task :push do

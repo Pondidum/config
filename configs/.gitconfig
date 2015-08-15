@@ -21,6 +21,7 @@
 	scrub = clean -dxf --exclude=packages
 	save = !git add -A && git commit -m 'SAVEPOINT'
 	undo = reset HEAD~1 --mixed
+	changes = log master..HEAD
 [credential]
 	helper = !'C:\\Users\\Andy\\AppData\\Roaming\\GitCredStore\\git-credential-winstore.exe'
 [difftool]

@@ -1,0 +1,28 @@
+Conifer:
+  title: "Conifer"
+  paths: [
+    "D:\\dev\\projects\\Conifer"
+  ]
+Jess:
+  title: "Jess"
+  paths: [
+    "D:\\dev\\projects\\Jess"
+  ]
+Overseer:
+  title: "Overseer"
+  paths: [
+    "D:\\dev\\projects\\Overseer"
+    "D:\\dev\\projects\\Overseer.RabbitMQ"
+    "D:\\dev\\projects\\Overseer.ServiceConsole"
+    "D:\\dev\\projects\\Overseer.Samples"
+  ]
+Blog:
+  title: "Blog: andydote.co.uk"
+  paths: [
+    "D:\\dev\\projects\\andydote"
+  ]
+Config:
+  title: "Config"
+  paths: [
+    "D:\\dev\\projects\\config"
+  ]

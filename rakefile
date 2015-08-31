@@ -10,6 +10,7 @@ directories = {
   "configs/atom-config.cson" => "~/.atom/config.cson",
   "configs/atom-keymap.cson" => "~/.atom/keymap.cson",
   "configs/atom-styles.less" => "~/.atom/styles.less",
+  "configs/atom-projects.cson" => "~/.atom/projects.cson",
 }
 
 task :push do

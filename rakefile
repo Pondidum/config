@@ -2,9 +2,14 @@
 directories = {
   "configs/.gitconfig" => "~/.gitconfig",
   "configs/.bash_profile" => "~/.bash_profile",
+
   "configs/Default (Windows).sublime-keymap" => "~/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
   "configs/Preferences.sublime-settings" => "~/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
   "configs/Distraction Free.sublime-settings" => "~/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+
+  "configs/atom-config.cson" => "~/.atom/config.cson",
+  "configs/atom-keymap.cson" => "~/.atom/keymap.cson",
+  "configs/atom-styles.less" => "~/.atom/styles.less",
 }
 
 task :push do

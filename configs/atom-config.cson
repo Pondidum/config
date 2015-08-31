@@ -1,0 +1,13 @@
+"*":
+  "exception-reporting":
+    userId: "f482c96e-e488-99da-f68b-1c0ddf6a0343"
+  welcome:
+    showOnStartup: false
+  core:
+    disabledPackages: [
+      "wrap-guide"
+    ]
+  "spell-check": {}
+  editor:
+    invisibles: {}
+    showInvisibles: true

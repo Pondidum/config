@@ -26,4 +26,4 @@
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 '.platform-win32':
-  'alt-ctrl-p': 'project-manager:toggle'
+  'alt-ctrl-p': 'project-manager:list-projects'

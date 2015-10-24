@@ -22,6 +22,7 @@
 	save = !git add -A && git commit -m 'SAVEPOINT'
 	undo = reset HEAD~1 --mixed
 	changes = log master..HEAD --pretty=oneline --abbrev-commit
+	logp = log --pretty=oneline --abbrev-commit
 [credential]
 	helper = !'C:\\Users\\Andy\\AppData\\Roaming\\GitCredStore\\git-credential-winstore.exe'
 [difftool]

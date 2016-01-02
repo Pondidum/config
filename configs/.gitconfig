@@ -1,6 +1,9 @@
 [user]
 	name = andy
 	email = andy@andydote.co.uk
+[http]
+	sslCAPath = c:/Users/Andy/AppData/Local/Programs/Git/mingw64/ssl/certs
+	sslCAInfo = c:/Users/Andy/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
 [merge]
 	tool = diffmerge
 [mergetool "diffmerge"]
@@ -12,20 +15,19 @@
 [push]
 	default = simple
 [alias]
-    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	cm = commit -m
 	s = status
 	dc = diff --cached
 	graph = log --graph --all --format=format:'%C(bold yellow)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''%C(white)%s%C(reset) %C(bold white)- %an%C(reset)' --abbrev-commit
 	branch-clean = branch --merged | grep -v '\\*' | xargs -n 1 git branch -d
-	scrub = clean -dxf --exclude=packages
+	scrub = clean -dxf --exclude=packages --exclude=node_modules
 	save = !git add -A && git commit -m 'SAVEPOINT'
 	undo = reset HEAD~1 --mixed
 	changes = log master..HEAD --pretty=oneline --abbrev-commit
+	pending = log origin/master..HEAD --pretty=oneline --abbrev-commit
 	logp = log --pretty=oneline --abbrev-commit
 	logt = log --format='%Cgreen%cr:%Creset %s'
-[credential]
-	helper = !'C:\\Users\\Andy\\AppData\\Roaming\\GitCredStore\\git-credential-winstore.exe'
 [difftool]
 	prompt = false
 [mergetool]

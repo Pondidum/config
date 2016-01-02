@@ -32,27 +32,3 @@ atom-text-editor::shadow .cursor {
 }
 
 @color: rgba(255, 255, 255, 0.2);
-
-atom-text-editor::shadow {
-    .invisible-character {
-        color: transparent;
-
-        &.trailing-whitespace {
-            color: @color;
-        }
-
-        &.hard-tab {
-            position: relative;
-            color: transparent;
-
-            &:before {
-                position: absolute;
-                top: 50%;
-                left: 1px;
-                right: 1px;
-                content: "";
-                border-bottom: 1px solid @color;
-            }
-        }
-    }
-}

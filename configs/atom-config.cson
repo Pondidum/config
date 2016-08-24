@@ -1,18 +1,22 @@
 "*":
-  "exception-reporting":
-    userId: "f482c96e-e488-99da-f68b-1c0ddf6a0343"
-  welcome:
-    showOnStartup: false
+  Zen:
+    minimap: true
+    softWrap: true
+    width: 150
+  build: {}
   core:
     disabledPackages: [
       "wrap-guide"
     ]
-    destroyEmptyPanes: false
-  "spell-check": {}
   editor:
+    invisibles: {}
     scrollPastEnd: true
     showInvisibles: true
-    invisibles: {}
-  "tab-switcher": {}
+  "exception-reporting":
+    userId: "f482c96e-e488-99da-f68b-1c0ddf6a0343"
   gist: {}
   "one-dark-ui": {}
+  "spell-check": {}
+  "tab-switcher": {}
+  welcome:
+    showOnStartup: false

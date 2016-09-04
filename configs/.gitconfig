@@ -32,3 +32,5 @@
 	prompt = false
 [mergetool]
 	prompt = false
+[credential]
+	helper = manager

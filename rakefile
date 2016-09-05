@@ -12,6 +12,7 @@ directories = {
   "configs/atom-styles.less" => "~/.atom/styles.less",
 
   "configs/CurrentSettings.vssettings" => "~/Documents/Visual\ Studio\ 2015/Settings/CurrentSettings.vssettings",
+  "configs/ReSharper.DotSettings" => "~/Documents/Visual\ Studio\ 2015/Settings/ReSharper.DotSettings",
 }
 
 task :push do

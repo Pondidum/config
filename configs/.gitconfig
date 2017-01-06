@@ -26,6 +26,7 @@
 	undo = reset HEAD~1 --mixed
 	changes = log master..HEAD --pretty=oneline --abbrev-commit
 	pending = log origin/master..HEAD --pretty=oneline --abbrev-commit --format='%Cgreen%cr:%Creset %C(auto)%h%Creset %s'
+	pendingup = "!git log origin/\"$(git rev-parse --abbrev-ref HEAD)\"..HEAD --pretty=oneline --abbrev-commit --format='%Cgreen%cr:%Creset %C(auto)%h%Creset %s'"
 	logp = log --pretty=oneline --abbrev-commit
 	logt = log --format='%Cgreen%cr:%Creset %s'
 [difftool]

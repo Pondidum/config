@@ -5,9 +5,14 @@
     width: 150
   build: {}
   core:
+    customFileTypes:
+      "text.xml": [
+        "xproj"
+      ]
     disabledPackages: [
       "wrap-guide"
     ]
+    telemetryConsent: "limited"
   editor:
     invisibles: {}
     scrollPastEnd: true
@@ -16,7 +21,10 @@
     userId: "f482c96e-e488-99da-f68b-1c0ddf6a0343"
   gist: {}
   "one-dark-ui": {}
-  "spell-check": {}
+  "spell-check":
+    locales: [
+      "en-GB"
+    ]
   "tab-switcher": {}
   welcome:
     showOnStartup: false

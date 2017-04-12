@@ -20,7 +20,7 @@
 	s = status
 	dc = diff --cached
 	graph = log --graph --all --format=format:'%C(bold yellow)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''%C(white)%s%C(reset) %C(bold white)- %an%C(reset)' --abbrev-commit
-	branch-clean = branch --merged | grep -v '\\*' | xargs -n 1 git branch -d
+	branch-clean = !git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d
 	scrub = clean -dxf --exclude=packages --exclude=node_modules
 	save = !git add -A && git commit -m 'SAVEPOINT'
 	undo = reset HEAD~1 --mixed

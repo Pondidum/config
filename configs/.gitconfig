@@ -29,6 +29,7 @@
 	pendingup = "!git log origin/\"$(git rev-parse --abbrev-ref HEAD)\"..HEAD --pretty=oneline --abbrev-commit --format='%Cgreen%cr:%Creset %C(auto)%h%Creset %s'"
 	logp = log --pretty=oneline --abbrev-commit
 	logt = log --format='%Cgreen%cr:%Creset %s'
+	web = !start $(git remote get-url --push origin)
 [difftool]
 	prompt = false
 [mergetool]

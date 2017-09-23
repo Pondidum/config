@@ -11,7 +11,7 @@
 [diff]
 	tool = diffmerge
 [difftool "diffmerge"]
-	cmd = sgdm --title1=Remote --title2=Local $LOCAL $REMOTE
+	cmd = sgdm --title1=Current --title2=Modified $LOCAL $REMOTE
 [push]
 	default = simple
 [alias]

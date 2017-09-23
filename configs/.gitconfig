@@ -2,8 +2,8 @@
 	name = andy
 	email = andy@andydote.co.uk
 [http]
-	sslCAPath = c:/Users/Andy/AppData/Local/Programs/Git/mingw64/ssl/certs
-	sslCAInfo = c:/Users/Andy/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
+	sslCAPath = c:/Program Files/Git/mingw64/ssl/certs
+	sslCAInfo = c:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
 [merge]
 	tool = diffmerge
 [mergetool "diffmerge"]

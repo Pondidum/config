@@ -30,6 +30,7 @@
 	logp = log --pretty=oneline --abbrev-commit
 	logt = log --format='%Cgreen%cr:%Creset %s'
 	web = !start $(git remote get-url --push origin)
+	pr = !start $(git remote get-url --push origin)compare/$(git rev-parse --abbrev-ref HEAD)?expand=1
 [difftool]
 	prompt = false
 [mergetool]
